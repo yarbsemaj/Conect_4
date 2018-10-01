@@ -195,6 +195,7 @@ def placePlayerOnSubBoard(col, player,board):
 def calulateComputer():
     moves = []
     values = 0
+    score = -1000
     for col in range(boardWidth):
         values = values+1
         boardCopy = copy.deepcopy(board)
